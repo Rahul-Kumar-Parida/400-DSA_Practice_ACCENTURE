@@ -1,0 +1,1 @@
+{"name":"Local: Q2","url":"d:\\Users\\rahul\\DSA ZERO TO HERO\\ACCENTUREplaced\\TechieCodeBuddy\\Q2.cpp","tests":[{"id":1723112041487,"input":"8\n1 2 0 4 3 0 5 0","output":"1 2 4 3 5 0 0 0 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Users\\rahul\\DSA ZERO TO HERO\\ACCENTUREplaced\\TechieCodeBuddy\\Q2.cpp","group":"local","local":true}
