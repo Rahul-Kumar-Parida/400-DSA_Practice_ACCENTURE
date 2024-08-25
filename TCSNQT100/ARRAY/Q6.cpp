@@ -1,6 +1,5 @@
 // Rearrange array in increasing-decreasing order
 #include <iostream>
-#include <vector>
 #include <algorithm>
 using namespace std;
 
@@ -13,25 +12,16 @@ int main()
     {
         cin >> arr[i];
     }
-    vector<int> result(n);
     sort(arr, arr + n);
-    int left = 0;
+    int left = n/2;
     int right = n - 1;
-    int i = 0;
-    while (left <= right)
+    while (left < right)
     {
-        if (i % 2 == 0)
-        {
-            result[i++] = arr[left];
-            left++;
-        }
-        else
-        {
-            result[i++] = arr[right];
-            right--;
-        }
+        swap(arr[left],arr[right]);
+        left++;
+        right--;
     }
-    for (int ch : result)
+    for (int ch : arr)
     {
         cout << ch << " ";
     }
